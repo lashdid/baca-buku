@@ -53,7 +53,7 @@
                         <li class="flex justify-center">
                             <a href="/page/detail?id={book.id}" target="_self">
                                 <div class="box relative">
-                                    <img src="{book.volumeInfo.imageLinks ? book.volumeInfo.imageLinks.smallThumbnail : '../src/assets/noImage.png'}" alt="" class="w-full h-full rounded-md object-cover">                                        
+                                    <img src="{book.volumeInfo.imageLinks ? book.volumeInfo.imageLinks.smallThumbnail : '/img/noImage.png'}" alt="" class="w-full h-full rounded-md object-cover">                                        
                                     <span class="absolute bottom-0 w-full bg-gradient-to-t from-black to-transparent p-3 text-white font-semibold rounded-b-md">{nameShortener(book.volumeInfo.title)}</span>
                                 </div>
                             </a>

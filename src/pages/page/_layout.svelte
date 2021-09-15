@@ -45,7 +45,7 @@
 		</div> -->
 		<div class="row">
 			<div class="col-5">
-				<img src="../src/assets/stb.png" class="stb" alt="icon" />
+				<img src="/img/stb.png" class="stb" alt="icon" />
 				<div class="tlss">
 					<h2 style="margin-bottom: 0!important;">STIBA</h2>
 					<p>E-Perpus</p>

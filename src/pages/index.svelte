@@ -80,7 +80,7 @@
 
 <main class="flex flex-col w-full h-full my-20 px-3 space-y-8 items-center">
 	<div class="flex flex-row items-center justify-center space-x-3">
-		<img src="src/assets/stb.png" class="w-32" alt="icon" />
+		<img src="/img/stb.png" class="w-32" alt="icon" />
 		<div class="flex flex-col text-4xl font-bold">
 			<h2>STIBA</h2>
 			<p>E-Perpus</p>
@@ -124,7 +124,7 @@
 						<li class="flex justify-center">
 							<a href="/page/detail?id={book.id}" target="_self">
 								<div class="box relative">
-									<img src="{book.volumeInfo.imageLinks ? book.volumeInfo.imageLinks.smallThumbnail : '../src/assets/noImage.png'}" alt="" class="w-full h-full rounded-md object-cover">                                        
+									<img src="{book.volumeInfo.imageLinks ? book.volumeInfo.imageLinks.smallThumbnail : '/img/noImage.png'}" alt="" class="w-full h-full rounded-md object-cover">                                        
 									<span class="absolute bottom-0 w-full bg-gradient-to-t from-black to-transparent p-3 text-white font-semibold rounded-b-md">{nameShortener(book.volumeInfo.title)}</span>
 								</div>
 							</a>

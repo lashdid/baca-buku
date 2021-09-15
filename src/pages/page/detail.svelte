@@ -26,7 +26,7 @@
     <div class="w-full md:w-2/3 flex flex-col mx-auto bg-white md:rounded-md p-5 space-y-5 my-3">
         <div class="flex flex-col space-y-5 mt-5 w-full">
             <div class="flex flex-col space-y-3 md:space-y-0 md:flex-row md:space-x-5">
-                <img src={book.volumeInfo.imageLinks ? book.volumeInfo.imageLinks.thumbnail : '../src/assets/noImage.png'} alt="" class="rounded-md w-1/3 mx-auto md:mx-0">
+                <img src={book.volumeInfo.imageLinks ? book.volumeInfo.imageLinks.thumbnail : '/img/noImage.png'} alt="" class="rounded-md w-1/3 mx-auto md:mx-0">
                 <div class="flex flex-col space-y-3">
                     <h3 class="text-5xl font-bold text-center">{book.volumeInfo.title}</h3>
                     <span class="text-2xl">Penerbit : {book.volumeInfo.publisher}</span>
